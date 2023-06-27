@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi primer website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="container-nav">
+        <nav class="navbar" role="navigation">
+            <ul class="nav-links">
+                <li><a href="index.html">Ir a inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="about.html">Acerca de</a></li>
+
+
+            </ul>
+        </nav>
+        <button class="button-menu-toggle">Menu</button>
+    </header>
+
+    <div class="container">
+        <h1>Contacto</h1>
+        <p>¡Contáctanos para cualquier consulta o solicitud de información!</p>
+        <form action="link">
+
+            <label for="firstname">Nombre:</label>
+            <input autofocus type="text" name="firstname" size="30" class="input-padron" id="firstname">
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" name="email" size="60" placeholder="email@dominio.com" class="input-padron" id="email">
+
+            <label for="tel">Teléfono:</label>
+            <input type="tel" name="tel" size="30" placeholder="xxxxxxxx" class="input-padron" id="tel" maxlength="15">
+
+            <label for="content">Su consulta:</label><br>
+            <textarea name="content" id="content" cols="30" rows="10" class="input-padron"></textarea>
+
+            <input type="button" value="Enviar Formulario" class="enviar" id="boton-enviar">
+        </form>
+    </div>
+    <script src="clase1.js"></script>
+
+</body>
+
+</html>

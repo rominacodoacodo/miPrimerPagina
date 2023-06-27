@@ -1,0 +1,211 @@
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.button-menu-toggle {
+  display: none;
+}
+
+nav{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 22px;
+}
+
+nav a:hover {
+    color: #1BF7DE;
+}
+
+body{
+    background-color: rgb(219, 252, 200);
+
+}
+
+h1{
+    background-color: rgb(141, 223, 141);
+    border: solid 2px black ;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 700px;
+    margin:auto;
+    
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 25px;
+
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px;
+
+}
+
+img{
+    margin: 20px 300px 20px 300px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+button {
+    width: 300p;
+    border: solid black 2px;
+    border-radius: 10px;
+    margin: 15px 280px  15px 280px;
+    font-size:25px;
+    font-family: "Georgia";
+    background-color:rgb(141, 223, 141) ;
+}
+
+.cuerpo-formulario{
+      margin-left: 60px;
+      grid-area: cuerpo;
+}
+
+form{
+  
+      margin: 40px 0;
+  
+}
+
+form label{
+  
+      display: block;
+      font-size: 20px;
+      margin: 0 0 10px;
+  
+}
+
+.input-padron{
+  
+      display: block;
+      margin: 0 0 20px;
+      padding: 10px 25px;
+      width: 50%;
+      border-radius: 3px;
+  
+}
+
+#firstname{
+      text-transform: uppercase;
+}
+
+
+#email{
+      text-transform: lowercase;
+}
+
+.enviar{
+      margin-left: 60px;
+      width: 30%;
+      padding: 15px 0px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      background:rgb(15, 227, 43);
+      border: none;
+      border-radius: 5px;
+      transition: 1s all;
+      cursor: pointer;
+  
+}
+  
+.enviar:hover{
+  
+      background: rgb(11, 118, 25);
+      transform: scale(1.1);
+      
+}
+  
+  
+
+
+@media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+  
+  
+    .nav-links {
+      display: none;
+    }
+  
+  
+    .button-menu-toggle {
+      display: block;
+      background-color: white;
+      border:none;
+      border-radius: 50px;
+      padding: 0 24px;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 20px;
+    }
+  
+    .nav-links.nav-links-responsive {
+      position: absolute;
+      display: flex;
+      background-color: rgba(20,20,20,0.95);
+      width: 100%;
+      height: 100%;
+      top: 70px;
+      left: 0;
+      flex-direction: column;
+      padding-top: 200px;
+      align-items: center;
+      gap:70px;
+      font-size: 40px;
+  
+  
+    }
+    .cuerpo-formulario{
+      margin-left: 10px;
+      
+    }
+  
+    .input-padron{
+      width: 80%;
+    }
+  
+    .enviar{
+      font-size: 18px;
+      width: 65%;
+    }
+
+    h1 {
+    width: 70%;
+    }
+
+    #miBoton{
+    width: 70%;
+    font-size: 12px;
+    }
+
+    
+  
+}
+
+
